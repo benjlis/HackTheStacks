@@ -1,0 +1,31 @@
+Find known specimen numbers and names in the text of [scientific publications]](http://digitallibrary.amnh.org/handle/2246/5)
+
+Q.1.1. What is the format/pattern of speciman numbers?
+Q 1.2. Are the “names” in the text the same as the “Latin name” that appears in the collections database?
+Yes
+
+All our Scientific Publications can be found in our DSpace Digital Library at this link: http://digitallibrary.amnh.org/handle/2246/5
+2 publication
+American Museum Novitates
+Bulletin of Museum of American Natural History
+Data Elements
+Author
+Title
+Publication Title
+Vol #
+Date
+Author Affiliation
+
+
+Match them to corresponding specimens (Latin name and catalog number) in our collections database
+For a list of specimens (Latin name and catalog number) in our collections database, see the documents folder for this project - https://github.com/amnh/HackTheStacks/tree/master/challenges/Mine_For_Specimens/documents).
+
+
+Output a bibliography in XML format that could be imported into the bibliography module in KE Emu. 
+For the schema for Bibliography Module in the documents folder for this project - https://github.com/amnh/HackTheStacks/tree/master/challenges/Mine_For_Specimens/documents). 
+Q.3.1. What language is this schema description in? My guess is it’s KE Emu’s propriertary mark up language and it’s very verbose and low level. Is this available in XML Schema or DTD? If not, can we get a few example XML entries? 
+
+
+Come Back: Please note that for IZ (Invertebrate Zoology), we do not have a list of specimens, however, the Barcode Labels for specimen records include the following prefixes: AMNH_PBI 01234567, AMNH_ENT 01234567, PBI_OON 01234567, AMNH_IZC 01235467, AMNH_ARA 01235467, AMNH_HYM 01235467 Note for these: In the text portion of the pub, they are likely to be found 1 time with the range of numbers following. AMNH_PBI 00000001 – 00369799 AMNH_ENT 00000001 – 00150000 PBI_OON 00000001 – 00020000 AMNH_ARA 00000001 – 0005000 AMNH_HYM 00000001 - 00002341
+
+
